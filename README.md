@@ -13,7 +13,7 @@ the equipment is AMDx64
 - git checkout 152abe7 **filename** .\a.txt #back to version <br/> <br/>
 
 - git reset --soft HEAD~ = inverse(git commit -m 'back to version) #change the commit message equal git  
-- git reset --hard (version like 3ab4ajfl)
+- git reset --hard (version like 3ab4ajfl) <br/> <br/>
 
 - git remote add origin **url** <br/>
 - git branch -M main <br/>
