@@ -1,4 +1,4 @@
-#REAMDNE.md
+# REAMDNE.md
 following is th instrustion of the project
 the enviroment is in Linux
 the equipment is AMDx64
@@ -9,12 +9,13 @@ git add.
 git commit -m ""
 git log
 
-git diff 152abe7 -- .\a.txt 
-git checkout 152abe7 -- .\a.txt #back to version
+git diff 152abe7 **filename** .\a.txt
+git checkout 152abe7 **filename** .\a.txt #back to version
 
-
-git reset --soft HEAD~ = inverse(git commit -m 'back to  version) #change the commit message equal git   
+git reset --soft HEAD~ = inverse(git commit -m 'back to version) #change the commit message equal git  
 git reset --hard (version like 3ab4ajfl)
 
-
-git reat add orgin  website
+git remote add origin **url**
+git branch -M main
+git push -u origin main
+git clone url
