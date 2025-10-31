@@ -5,7 +5,7 @@ the equipment is AMDx64
 
 - git init
 - git status
-- git add.
+- git add .
 - git commit -m ""
 - git log
 
