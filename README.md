@@ -19,3 +19,10 @@ the equipment is AMDx64
 - git branch -M main <br/>
 - git push -u origin main <br/>
 - git clone url
+
+branch 創建與git push
+- git branch branch_name
+- git checkout branch_name 
+- git push --set upstream oringin branch_name
+
+
